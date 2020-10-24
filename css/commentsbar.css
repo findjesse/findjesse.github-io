@@ -1,0 +1,34 @@
+::-webkit-scrollbar {
+  display: none;
+}
+#page-header {
+  background: transparent !important;
+}
+
+@media screen and (max-width: 530px) {
+  #computer {
+    display: none !important;
+  }
+}
+
+@media screen and (min-width: 530px) {
+  #mobile {
+    display: none !important;
+  }
+}
+
+#article-container img {
+  margin: 0 auto 0rem;
+}
+#form-wrap {
+  overflow: hidden;
+  height: 447px;
+  position: relative;
+  top: 0px;
+  transition: all 1s ease-in-out .3s;
+  z-index: 0;
+}
+#form-wrap:hover {
+  height: 1200px;
+  top: -200px;
+}
