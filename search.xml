@@ -4,6 +4,48 @@
   
     
     <entry>
+      <title></title>
+      <link href="2020/10/25/markdown%E8%AF%AD%E6%B3%95%E6%B5%8B%E8%AF%95/"/>
+      <url>2020/10/25/markdown%E8%AF%AD%E6%B3%95%E6%B5%8B%E8%AF%95/</url>
+      
+        <content type="html"><![CDATA[<p>标题类别：</p><h1 id="一级标题"><a href="#一级标题" class="headerlink" title="一级标题"></a>一级标题</h1><h2 id="二级标题"><a href="#二级标题" class="headerlink" title="二级标题"></a>二级标题</h2><p>字体类别：<br><strong>加粗</strong><br><em>斜体</em><br>**<em>加粗+斜体**</em><br><del>删除线</del></p><p>强调：<br><code>强调</code><br><code>`</code></p><!-- //想打出  ` (反引号)需要转义的，加<code></code>标签强调 --><p>引用：</p><!-- 换行要补齐 --><blockquote><p>引用</p><blockquote><p>二级引用</p><blockquote><p>三级引用    </p></blockquote><p>重新回到二级</p><blockquote><p>三级</p></blockquote></blockquote></blockquote><p>结束引用</p><p>表格：</p><table><thead><tr><th align="left">列1</th><th align="center">列2</th><th align="right">列3</th></tr></thead><tbody><tr><td align="left">左对齐</td><td align="center">居中</td><td align="right">右对齐</td></tr><tr><td align="left">12345</td><td align="center">1234</td><td align="right">123</td></tr></tbody></table><p>代码框：</p><!-- code可换成不同语言 --><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">$ hexo clean</span><br></pre></td></tr></table></figure><p>多媒体插入：<br>链接：<br><a href="">链接</a><br><a href="http://baidu.com/">百度</a><br>图片：<br><img src= "/img/loading.gif" data-lazy-src="/img/doge.png" alt="头像"></p><p>列表：</p><ul><li>列表1</li><li>列表2<ul><li>2-1</li></ul></li></ul><!-- 数字无所谓的，只有两层序列结构 --><ol><li>我是一级序列</li><li>我是一级序列 </li><li>我是一级序列<ol><li>我是二级序列</li><li>我是二级序列</li><li>我是二级序列</li></ol></li><li>我是一级序列</li><li>我是一级序列<ol><li>我是二级序列 </li><li>缩进仍然二级序列 </li></ol></li></ol>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>博客搭建纯小白教学——基于hexo+GitHub搭建</title>
+      <link href="2020/10/25/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E7%BA%AF%E5%B0%8F%E7%99%BD%E6%95%99%E5%AD%A6%E2%80%94%E2%80%94%E5%9F%BA%E4%BA%8Ehexo-GitHub%E6%90%AD%E5%BB%BA/"/>
+      <url>2020/10/25/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E7%BA%AF%E5%B0%8F%E7%99%BD%E6%95%99%E5%AD%A6%E2%80%94%E2%80%94%E5%9F%BA%E4%BA%8Ehexo-GitHub%E6%90%AD%E5%BB%BA/</url>
+      
+        <content type="html"><![CDATA[<p>test</p><!-- note框框 --><div class="note default flat"><!-- class： default / primary / success / info / warning / danger --><p>内容</p></div>]]></content>
+      
+      
+      <categories>
+          
+          <category> 教程 </category>
+          
+          <category> 萌新 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> hexo </tag>
+            
+            <tag> 博客 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Hello World</title>
       <link href="2020/10/21/hello-world/"/>
       <url>2020/10/21/hello-world/</url>
