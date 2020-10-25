@@ -1,11 +1,16 @@
+/* 滚动条隐藏 */
 ::-webkit-scrollbar {
   display: none;
 }
-
+/* 禁用图片点击 */
+.fancybox{
+   pointer-events: none;
+}
+/* top-img隐藏 */
 #page-header {
   background: transparent !important;
 }
-
+/* 宽度小于530px隐藏信封 */
 @media screen and (max-width: 530px) {
   #computer {
     display: none !important;
@@ -30,7 +35,7 @@
   transition: all 1s ease-in-out .3s;
   z-index: 0;
 }
-
+/* 调整信封划出高度，换信笺内容以后可在此设置height */
 #form-wrap:hover {
   height: 1200px;
   top: -200px;
@@ -43,7 +48,8 @@
   background-repeat: no-repeat;
   width: 530px;
   height: 317px;
-  z-index: -100
+  z-index: -100;
+  pointer-events: none;
 }
 
 #afterimg {
@@ -54,6 +60,7 @@
   width: 530px;
   height: 259px;
   z-index: 100;
+  pointer-events: none;
 }
 
 #envelope {
@@ -73,6 +80,7 @@
 .headerimg {
   width: 100%;
   overflow: hidden;
+  pointer-events: none;
 }
 
 .formmain {
@@ -115,6 +123,7 @@
   width: 100%;
   margin: 5px auto 5px auto;
   display: block;
+  pointer-events: none;
 }
 
 .bottomhr {
